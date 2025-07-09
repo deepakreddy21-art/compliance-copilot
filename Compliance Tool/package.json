@@ -1,0 +1,12 @@
+{
+  "name": "compliance-copilot-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "shared"
+  ],
+  "scripts": {
+    "start:frontend": "yarn workspace frontend start",
+    "build:frontend": "yarn workspace frontend build"
+  }
+} 

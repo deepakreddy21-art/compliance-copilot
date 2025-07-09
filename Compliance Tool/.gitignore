@@ -1,0 +1,15 @@
+# Node
+node_modules/
+build/
+dist/
+.env
+
+# Java
+backend/target/
+*.iml
+*.class
+
+# IDE
+.idea/
+.vscode/
+.DS_Store 
